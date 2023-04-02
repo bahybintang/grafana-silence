@@ -1,0 +1,4 @@
+PyYAML==5.4.1
+pyaml==21.10.1
+requests==2.27.0
+schedule==0.6.0

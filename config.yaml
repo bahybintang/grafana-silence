@@ -1,0 +1,14 @@
+silences:
+  - alert_id: 1234
+    start_time: "23:00"
+    end_time: "06:00"
+    target: grafana-byeol
+  - alert_id: 1235
+    start_time: "23:00"
+    end_time: "06:00"
+    target: grafana-byeol
+  
+targets:
+  - name: grafana-byeol
+    url: https://grafana.byeol.my.id
+    token: <TOKEN>
